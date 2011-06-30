@@ -8,7 +8,7 @@
 
 (defn draw-predator [predator]
 	(stroke 235 0 0)
-	(fill 235 0 0)
+	(fill 0 0 235)
 	(ellipse (:x predator) (:y predator) (:radius predator) (:radius predator)))
 
 (defn draw-prey [prey]
